@@ -1,0 +1,42 @@
+# Git 版本控制目录
+.git/
+
+# Python 编译缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Gradio 缓存目录
+.gradio/
+
+# 数据库文件
+*.db
+
+# 检测模型目录
+detection_models/*.pt
+detection_models/*.pth
+detection_models/*.yaml
+detection_models/*.onnx
+detection_models/*.engine
+
+# 分割模型目录
+segmentation_models/*.pt
+segmentation_models/*.pth
+segmentation_models/*.yaml
+
+# 其他模型权重
+load_models/*.pth
+load_models/model_data/*.pth
+weights/
+*.pt
+*.pth
+
+# 输出目录
+outputs/
+
+# 临时文件
+*.tmp
+*.log
+*.bak
+*.swp

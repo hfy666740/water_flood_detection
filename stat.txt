@@ -1,0 +1,1 @@
+conda activate yolo_latest; cd d:\git_clone\YOLO_Flooding; python main.py
